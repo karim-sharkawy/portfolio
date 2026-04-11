@@ -11,39 +11,33 @@ Detailed case studies of ML systems I've built. Each project includes the proble
 
 ## Featured Projects
 
-### [Energy Demand Forecasting](/projects/energy-forecasting)
+### [Ensemble Time Series Climate Forecasting]({{ site.baseurl }}/projects/climate-forecasting)
 
-**Problem**: Utility companies need accurate demand forecasts for grid management and cost reduction.
+**Problem**: Accurate hourly climate prediction combining multiple modeling approaches.
 
-**Tech Stack**: LSTM, XGBoost, Airflow, FastAPI, Streamlit
+**Tech Stack**: LSTM, Random Forest, Bayesian Optimization
 
-**Impact**: Reduced forecasting error by 18% vs. baseline, deployed across 3 regions.
-
-**Live Demo**: [Try the interactive app →](https://energy-demo.streamlit.app)
+**Impact**: 92% error reduction over baseline through ensemble methods.
 
 ---
 
-### [Text Classification with DistilBERT](/projects/text-classification)
+### [Customer Feedback Classification System]({{ site.baseurl }}/projects/customer-feedback)
 
-**Problem**: Scale NLP classification while keeping inference costs low for real-time systems.
+**Problem**: Scalable text classification for customer feedback analysis.
 
-**Tech Stack**: PyTorch, Transformers, ONNX, Docker
+**Tech Stack**: PySpark, HuggingFace Transformers, Databricks, MLflow
 
-**Impact**: 60% faster inference, 40% smaller model, maintained 94% accuracy.
-
-**Live Demo**: [Interactive classifier →](https://text-demo.streamlit.app)
+**Impact**: Deployed batch and real-time workflows with robust MLOps.
 
 ---
 
-### [Recommendation System](/projects/recommendation-system)
+### [NLP Pipeline for Climate Anxiety Analysis]({{ site.baseurl }}/projects/climate-anxiety-nlp)
 
-**Problem**: Personalize content for millions of users in real-time with cold-start handling.
+**Problem**: Analyze social media data to understand climate anxiety for mental health organizations.
 
-**Tech Stack**: Collaborative Filtering, Matrix Factorization, Redis, PostgreSQL, Spark
+**Tech Stack**: Transformers, Azure ML, PySpark
 
-**Impact**: 22% increase in engagement, served 5M+ daily users.
-
-**Live Demo**: [See recommendations →](https://recsys-demo.streamlit.app)
+**Impact**: Processed 270GB data in 15 hours, analyzed 21M posts.
 
 ---
 

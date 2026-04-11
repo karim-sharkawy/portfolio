@@ -13,12 +13,12 @@ Thoughts on ML systems, production lessons, and creative explorations.
 
 Technical deep dives on machine learning concepts and mathematical foundations.
 
-- [Understanding Attention Mechanisms](/blog/ml/attention-explained)
-- [Why Regularization Actually Works](/blog/ml/regularization)
-- [The Bias-Variance Tradeoff in Production](/blog/ml/bias-variance-production)
-- [Interpreting Model Predictions: SHAP & LIME](/blog/ml/model-interpretability)
-- [Feature Engineering is 90% of ML](/blog/ml/feature-engineering)
-- [Sampling Strategies for Imbalanced Data](/blog/ml/imbalanced-data)
+- [Understanding Attention Mechanisms]({{ site.baseurl }}/blog/ml/attention-explained)
+- [Why Regularization Actually Works]({{ site.baseurl }}/blog/ml/regularization)
+- [The Bias-Variance Tradeoff in Production]({{ site.baseurl }}/blog/ml/bias-variance-production)
+- [Interpreting Model Predictions: SHAP & LIME]({{ site.baseurl }}/blog/ml/model-interpretability)
+- [Feature Engineering is 90% of ML]({{ site.baseurl }}/blog/ml/feature-engineering)
+- [Sampling Strategies for Imbalanced Data]({{ site.baseurl }}/blog/ml/imbalanced-data)
 
 ---
 
@@ -26,12 +26,12 @@ Technical deep dives on machine learning concepts and mathematical foundations.
 
 Real stories from building ML systems in production. The wins, failures, and lessons.
 
-- [Building a Model Registry](/blog/build-logs/model-registry)
-- [The Data Quality Crisis](/blog/build-logs/data-quality)
-- [Debugging a Production Model Failure](/blog/build-logs/model-debugging)
-- [From Notebook to Production: 5 Gotchas](/blog/build-logs/notebook-to-prod)
-- [How We Lost 3 Days to a Caching Bug](/blog/build-logs/caching-bug)
-- [Monitoring ML Systems: What We Learned](/blog/build-logs/ml-monitoring)
+- [Building a Model Registry]({{ site.baseurl }}/blog/build-logs/model-registry)
+- [The Data Quality Crisis]({{ site.baseurl }}/blog/build-logs/data-quality)
+- [Debugging a Production Model Failure]({{ site.baseurl }}/blog/build-logs/model-debugging)
+- [From Notebook to Production: 5 Gotchas]({{ site.baseurl }}/blog/build-logs/notebook-to-prod)
+- [How We Lost 3 Days to a Caching Bug]({{ site.baseurl }}/blog/build-logs/caching-bug)
+- [Monitoring ML Systems: What We Learned]({{ site.baseurl }}/blog/build-logs/ml-monitoring)
 
 ---
 
@@ -39,11 +39,11 @@ Real stories from building ML systems in production. The wins, failures, and les
 
 Poetry, essays, and creative explorations. Because ML engineers are humans too.
 
-- [Symmetry](/blog/creative/symmetry)
-- [The Geometry of Learning](/blog/creative/geometry-of-learning)
-- [In Praise of Simple Solutions](/blog/creative/simple-solutions)
-- [Debugging Life](/blog/creative/debugging-life)
-- [The Beauty of Constraints](/blog/creative/constraints)
+- [Symmetry]({{ site.baseurl }}/blog/creative/symmetry)
+- [The Geometry of Learning]({{ site.baseurl }}/blog/creative/geometry-of-learning)
+- [In Praise of Simple Solutions]({{ site.baseurl }}/blog/creative/simple-solutions)
+- [Debugging Life]({{ site.baseurl }}/blog/creative/debugging-life)
+- [The Beauty of Constraints]({{ site.baseurl }}/blog/creative/constraints)
 
 ---
 

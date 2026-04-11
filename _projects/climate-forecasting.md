@@ -1,53 +1,47 @@
 ---
 layout: project
-title: "Energy Demand Forecasting: Time Series at Scale"
-date: 2024-09-15
+title: "Ensemble Model for Time Series Climate Forecasting"
+date: 2024-10-01
 
 # Project Meta
 problem_statement: |
-  Utility companies struggle with demand forecasting accuracy, leading to inefficient resource allocation
-  and wasted operational costs. Traditional models fail to capture complex temporal patterns and external factors
-  like weather and holidays. We needed predictions 48 hours ahead for grid planning and cost optimization.
+  Accurate hourly climate prediction is crucial for various applications including agriculture, energy planning, and weather-dependent operations. Traditional models struggle with capturing complex temporal dependencies and external factors. We needed a robust forecasting system that combines multiple approaches for better accuracy.
 
 tech_stack:
-  - Python (PyTorch, scikit-learn)
+  - Python (TensorFlow/Keras, Scikit-learn)
   - LSTM Neural Networks
-  - XGBoost Ensemble
-  - Apache Airflow (pipeline orchestration)
-  - PostgreSQL & Redis (data + caching)
-  - FastAPI (inference API)
-  - Streamlit (live demo)
-  - AWS EC2 & RDS (deployment)
+  - Random Forest
+  - Bayesian Hyperparameter Optimization
+  - Experiment Tracking
 
 results_text: |
-  Achieved **18% improvement** over production baseline (MAPE: 14.2% → 11.6%).
-  Deployed across 3 regional grids serving 2M+ customers.
+  Achieved **92% error reduction** over baseline through feature engineering and model selection.
+  Built an ensemble system combining LSTM and Random Forest for hourly climate prediction.
 
 results_metrics:
-  - "**MAPE**: 11.6% (vs 14.2% baseline)"
-  - "**MAE**: 2,847 MW"
-  - "**Inference latency**: 45ms (p99)"
-  - "**Uptime**: 99.97%"
-  - "**Daily predictions**: 4.8M"
+  - "**Error reduction**: 92% over baseline"
+  - "**Model types**: LSTM + Random Forest ensemble"
+  - "**Optimization**: Bayesian hyperparameter tuning"
+  - "**Features**: Engineered temporal and meteorological features"
 
-demo_url: "https://energy-forecast-demo.streamlit.app"
-demo_description: "Upload historical data and see forecasts. Adjust parameters to see sensitivity analysis."
+demo_url: ""
+demo_description: ""
 
-code_repo: "https://github.com/your-username/energy-forecasting"
+code_repo: "https://github.com/karim-sharkawy"
 
 resources:
-  - title: "LSTM for Time Series Forecasting"
-    url: "https://github.com/your-username/energy-forecasting/blob/main/README.md"
-  - title: "Blog: Building at Scale"
-    url: "/blog/build-logs/scale"
+  - title: "Ensemble Forecasting Implementation"
+    url: "https://github.com/karim-sharkawy"
+  - title: "Blog: Time Series Best Practices"
+    url: "{{ site.baseurl }}/blog/ml/time-series"
 
 lessons_text: |
-  This project taught me critical lessons about production ML systems:
+  This project taught me critical lessons about time series forecasting:
 
 lessons_list:
-  - "**Data quality is everything**: Spent 3 weeks cleaning sensor data. Garbage input = garbage predictions. Automated data validation saved us from silent failures."
-  - "**Ensemble > Single Model**: LSTM captured seasonality, XGBoost captured exceptions. Combined RMSE beat either alone."
-  - "**Monitor everything**: Built dashboards for prediction drift, error patterns, and data freshness. Caught issues before users did."
+  - "**Ensemble methods outperform single models**: Combining LSTM for sequential patterns with Random Forest for feature interactions significantly improved accuracy."
+  - "**Feature engineering is key**: Temporal features, lag variables, and meteorological indicators were crucial for model performance."
+  - "**Bayesian optimization scales**: Efficient hyperparameter tuning allowed exploration of complex model spaces without exhaustive grid search."
   - "**Keep it simple first**: Initially tried attention mechanisms. Standard LSTM + XGBoost won. Simpler is better if accuracy is equal."
   - "**Retraining strategy matters**: Retrained daily initially. Found weekly retraining with drift detection was more stable and cheaper."
   - "**Offline validation isn't enough**: Built A/B testing framework. Real-world data had surprises our validation set missed."

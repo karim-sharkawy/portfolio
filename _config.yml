@@ -1,9 +1,9 @@
-title: Your Name | ML Engineer
-description: ML systems and thoughtful engineering
-author: Your Name
-url: https://your-username.github.io
-baseurl: ""
-repository: your-username/your-username.github.io
+title: Karim El-Sharkawy | ML Engineer
+description: Machine Learning Engineer specializing in NLP, time series forecasting, and production ML systems
+author: Karim El-Sharkawy
+url: https://karim-sharkawy.github.io
+baseurl: "/portfolio"
+repository: karim-sharkawy/portfolio
 
 # Jekyll theme
 theme: jekyll-theme-minimal

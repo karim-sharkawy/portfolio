@@ -3,9 +3,16 @@ layout: default
 title: About
 ---
 
+---
+layout: default
+title: About
+---
+
 # About Me
 
-I'm an ML Engineer focused on building systems that work in production. My background spans data engineering, model development, and infrastructure—I think about the complete pipeline, not just model accuracy.
+![Karim El-Sharkawy]({{ site.baseurl }}/assets/images/headshot.jpg)
+
+I'm a Machine Learning Engineer with a passion for building scalable systems that extract insights from data. My background in mathematics and atmospheric science, combined with hands-on experience in NLP and time series forecasting, drives me to create solutions that are both technically sound and practically impactful.
 
 ## My Approach
 
@@ -19,19 +26,21 @@ I'm an ML Engineer focused on building systems that work in production. My backg
 
 ## Background
 
-I started in data analysis, moved into ML engineering, and now focus on the full ML lifecycle. I've worked on:
+I hold a Bachelor of Science in Mathematics from Purdue University with a Data Science Certificate and Atmospheric Science Minor. My journey spans research in optimization and climate dynamics to applied ML engineering in NLP and forecasting.
 
-- **Recommendation systems** at scale
-- **Time series forecasting** for critical infrastructure
-- **NLP pipelines** for production classification
-- **MLOps infrastructure** and model governance
-- **Data pipelines** feeding real-time decision systems
+I've worked on:
+
+- **NLP pipelines** analyzing social media data for mental health insights
+- **Time series forecasting** for climate prediction with ensemble methods
+- **Optimization-based classifiers** using linear programming and SVMs
+- **Data processing workflows** for large-scale atmospheric datasets
+- **MLOps infrastructure** with MLflow, Docker, and CI/CD
 
 ## Tech Stack I Know Well
 
-- **ML Frameworks**: PyTorch, scikit-learn, XGBoost, transformers
-- **Platforms**: AWS, GCP, Docker, Kubernetes
-- **Tools**: MLflow, Weights & Biases, Streamlit, Airflow
+- **ML Frameworks**: Transformers (HuggingFace), TensorFlow/Keras, Scikit-learn, PyTorch
+- **Platforms**: Databricks, Azure ML, Docker, PostgreSQL, MinIO
+- **Tools**: MLflow, PySpark, Pandas, SQL
 - **Languages**: Python (mainly), SQL, Bash
 
 ## What I'm Interested In
@@ -44,4 +53,4 @@ I started in data analysis, moved into ML engineering, and now focus on the full
 
 ---
 
-**Want to work together or chat?** Reach out on [GitHub](https://github.com/your-username) or [LinkedIn](https://linkedin.com/in/your-username).
+**Want to work together or chat?** Reach out on [GitHub](https://github.com/karim-sharkawy) or [LinkedIn](https://linkedin.com/in/karim-me).
