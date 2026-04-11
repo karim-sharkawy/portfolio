@@ -1,0 +1,66 @@
+title: Your Name | ML Engineer
+description: ML systems and thoughtful engineering
+author: Your Name
+url: https://your-username.github.io
+baseurl: ""
+repository: your-username/your-username.github.io
+
+# Jekyll theme
+theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files from Jekyll compilation
+exclude:
+  - .github/
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - LICENSE
+  - README.md
+
+# Collections for organized content
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  blog_ml:
+    output: true
+    permalink: /blog/ml/:path/
+  blog_logs:
+    output: true
+    permalink: /blog/build-logs/:path/
+  blog_creative:
+    output: true
+    permalink: /blog/creative/:path/
+
+# Default YAML front matter
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "blog_ml"
+    values:
+      layout: "post"
+      category: "ML & Math"
+  - scope:
+      path: ""
+      type: "blog_logs"
+    values:
+      layout: "post"
+      category: "Build Logs"
+  - scope:
+      path: ""
+      type: "blog_creative"
+    values:
+      layout: "post"
+      category: "Creative"

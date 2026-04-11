@@ -1,0 +1,99 @@
+---
+layout: default
+---
+
+<article>
+  <h1>{{ page.title }}</h1>
+
+  {% if page.date %}
+  <div class="meta">Published {{ page.date | date: "%B %d, %Y" }}</div>
+  {% endif %}
+
+  {% if page.problem_statement %}
+  <section>
+    <h2>Problem Statement</h2>
+    {{ page.problem_statement | markdownify }}
+  </section>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.tech_stack %}
+  <section>
+    <h2>Tech Stack</h2>
+    <ul>
+      {% for tech in page.tech_stack %}
+        <li>{{ tech }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if page.results %}
+  <section>
+    <h2>Results & Metrics</h2>
+    {% if page.results_text %}
+      {{ page.results_text | markdownify }}
+    {% endif %}
+    {% if page.results_metrics %}
+      <ul>
+        {% for metric in page.results_metrics %}
+          <li>{{ metric }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if page.demo_url %}
+  <section>
+    <h2>Live Demo</h2>
+    <p style="background-color: #f0f7ff; padding: 15px; border-radius: 5px; border-left: 4px solid #0066cc;">
+      <a href="{{ page.demo_url }}" class="demo-button">Try the Interactive App →</a>
+    </p>
+    {% if page.demo_description %}
+      <p>{{ page.demo_description }}</p>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if page.lessons_learned %}
+  <section>
+    <h2>Lessons Learned</h2>
+    {% if page.lessons_text %}
+      {{ page.lessons_text | markdownify }}
+    {% endif %}
+    {% if page.lessons_list %}
+      <ul>
+        {% for lesson in page.lessons_list %}
+          <li>{{ lesson }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if page.code_repo %}
+  <section>
+    <h2>Code & Resources</h2>
+    <p>
+      <strong><a href="{{ page.code_repo }}">View on GitHub →</a></strong>
+    </p>
+    {% if page.resources %}
+      <h3>Additional Resources</h3>
+      <ul>
+        {% for resource in page.resources %}
+          <li><a href="{{ resource.url }}">{{ resource.title }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  <hr>
+
+  <div class="meta" style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e1e1e1;">
+    <p><a href="/projects">← Back to Projects</a></p>
+    <p style="font-size: 13px; margin-top: 15px;">Questions? <a href="https://github.com/your-username">Open an issue on GitHub</a></p>
+  </div>
+</article>

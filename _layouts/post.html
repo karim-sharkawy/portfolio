@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article>
+  <h1>{{ page.title }}</h1>
+
+  {% if page.date %}
+  <div class="meta">
+    Published {{ page.date | date: "%B %d, %Y" }}
+    {% if page.category %}| {{ page.category }}{% endif %}
+  </div>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.demo_url %}
+  <div style="background-color: #f9f9f9; padding: 20px; border-left: 4px solid #0066cc; margin-top: 30px;">
+    <h3 style="margin-top: 0;">Live Demo</h3>
+    <p><a href="{{ page.demo_url }}" class="demo-button">Try the Interactive App →</a></p>
+    {% if page.demo_description %}
+    <p style="font-size: 14px; color: #666;">{{ page.demo_description }}</p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <hr>
+
+  <div class="meta" style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e1e1e1;">
+    <p>Questions or feedback? <a href="https://github.com/your-username">Reach out on GitHub</a></p>
+  </div>
+</article>
