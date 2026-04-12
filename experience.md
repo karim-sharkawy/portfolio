@@ -5,7 +5,7 @@ title: Experience
 
 # Experience
 
-What I've built and what I learned along the way.
+I believe ML projects succeed or fail based on problem clarity, data quality, systems thinking, iteration speed, and team collaboration. Here's what I've built and the lessons I've learned along the way.
 
 ---
 
@@ -78,18 +78,6 @@ Python, Data Analysis, Visualization
 - **90GB datasets** processed and analyzed
 - Contributed abstract to AGU conference
 - Supported atmospheric dynamics research
-
----
-
-## Philosophy
-
-I believe ML projects succeed or fail based on:
-
-1. **Problem clarity** – Understanding what we're actually solving
-2. **Data quality** – Garbage in = garbage out (always)
-3. **System thinking** – ML models are 10% of the solution
-4. **Iteration speed** – Ship, measure, learn, repeat
-5. **Team collaboration** – ML works best with product and engineering teams
 
 ---
 
