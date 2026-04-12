@@ -9,17 +9,14 @@ I've designed and generated a complete professional portfolio for Machine Learni
 - ✅ **Jekyll + GitHub Pages setup** - Free hosting, auto-deployment
 - ✅ **3 HTML layout templates** - Clean, minimal design
 - ✅ **6 main pages** - Home, About, Projects, Blog, Experience, Now
-- ✅ **3-category blog system** - ML & Math, Build Logs, Creative
+- ✅ **3-category blog system** - ML, Math, Creative
 - ✅ **Streamlit demo integration** - Live, interactive project demos
 
 ### Example Content (Ready to Customize)
 - ✅ **2 full project case studies** with realistic scope:
   - Energy Demand Forecasting (time series + production lessons)
   - Text Classification (model optimization + deployment)
-- ✅ **5 example blog posts** (one per category + extras):
-  - ML & Math: Attention Mechanisms, Bias-Variance Tradeoff
-  - Build Logs: Model Registry, Production Debugging 
-  - Creative: Symmetry, In Praise of Simple Solutions
+- ✅ **Example blog posts** in ML, Math, and Creative categories
 
 ### Documentation
 - ✅ **README.md** - 150+ lines of deployment instructions

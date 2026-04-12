@@ -26,24 +26,22 @@ _portfolio/                           ← Root folder (your portfolio)
 │
 ├── 💼 PROJECTS (Case studies)
 │   └── _projects/
-│       ├── energy-forecasting.md    ← Example: Time series project
-│       ├── text-classification.md   ← Example: NLP optimization
-│       └── [your-project-name].md   ← Add your projects here
+│       ├── climate-forecasting.md    ← Example: Time series project
+│       ├── customer-feedback.md      ← Example: NLP project
+│       └── climate-anxiety-nlp.md    ← Example: Social media analysis
 │
 ├── 📝 BLOG POSTS (Organized by category)
 │   └── _blog/
 │       │
-│       ├── ml-math/                 ← ML & Math concepts
+│       ├── ml/                     ← ML concepts
 │       │   ├── attention-explained.md
 │       │   ├── bias-variance.md
 │       │   └── [your-post].md
 │       │
-│       ├── build-logs/              ← Production ML lessons
-│       │   ├── model-registry.md
-│       │   ├── debugging.md
+│       ├── math/                   ← Mathematical foundations
 │       │   └── [your-post].md
 │       │
-│       └── creative/                ← Poetry, essays
+│       └── creative/               ← Poetry, essays
 │           ├── symmetry.md
 │           ├── simple-solutions.md
 │           └── [your-post].md

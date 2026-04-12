@@ -12,23 +12,21 @@ This is a complete ML Engineer portfolio built with Jekyll + GitHub Pages.
 │   ├── post.html           # Blog post layout
 │   └── project.html        # Project page layout
 ├── _projects/              # Project case studies (collections)
-│   ├── energy-forecasting.md
-│   └── text-classification.md
+│   ├── climate-forecasting.md
+│   ├── customer-feedback.md
+│   └── climate-anxiety-nlp.md
 ├── _blog/                  # Blog posts (organized by category)
-│   ├── ml-math/
+│   ├── ml/
 │   │   └── attention-explained.md
-│   ├── build-logs/
-│   │   └── model-registry.md
+│   ├── math/
 │   └── creative/
 │       └── symmetry.md
 ├── assets/
 │   └── images/projects/    # Project screenshots/gifs
 ├── index.md                # Homepage
-├── about.md                # About page
 ├── projects.md             # Projects index
 ├── blog.md                 # Blog index
 ├── experience.md           # Experience section
-├── now.md                  # Now page
 ├── Gemfile                 # Ruby dependencies
 ├── .gitignore
 └── README.md               # Setup & deployment instructions

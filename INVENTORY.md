@@ -49,30 +49,30 @@ now.md              ← What you're currently doing
 ### Project Examples (2 files)
 ```
 _projects/
-  ├── energy-forecasting.md    ← Full case study (1000+ lines)
-  └── text-classification.md   ← Shorter case study (500+ lines)
+  ├── climate-forecasting.md    ← Full case study
+  ├── customer-feedback.md      ← NLP case study
+  └── climate-anxiety-nlp.md    ← Social media analysis
 ```
 
-### Example Blog Posts (5 files)
+### Example Blog Posts
 
-**ML & Math Category:**
+**ML Category:**
 ```
-_blog/ml-math/
+_blog/ml/
   ├── attention-explained.md   ← Deep dive: Math + code
   └── bias-variance.md         ← Theory to production
 ```
 
-**Build Logs Category:**
+**Math Category:**
 ```
-_blog/build-logs/
-  ├── model-registry.md        ← Systems design lessons
-  └── debugging.md             ← Real war story
+_blog/math/
+  └── [example posts]
 ```
 
 **Creative Category:**
 ```
 _blog/creative/
-  └── symmetry.md              ← Poetry
+  ├── symmetry.md              ← Poetry
   └── simple-solutions.md      ← Essays
 ```
 

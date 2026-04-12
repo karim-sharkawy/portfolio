@@ -6,7 +6,7 @@ A minimal, fast, production-ready personal portfolio for Machine Learning Engine
 
 ✅ Complete portfolio structure ready to deploy
 ✅ 6 main pages + extensible blog system
-✅ 3 example blog posts (ML theory, build logs, creative writing)
+✅ 3 example blog posts (ML, Math, Creative)
 ✅ 2 example projects with demo links
 ✅ Clean, minimal design (no frameworks needed)
 ✅ GitHub Pages + Jekyll configuration
@@ -26,12 +26,10 @@ _portfolio/
 │   ├── energy-forecasting.md   # Example: Full production project
 │   └── text-classification.md  # Example: ML optimization project
 ├── _blog/                      # Blog posts organized by category
-│   ├── ml-math/
+│   ├── ml/
 │   │   ├── attention-explained.md        # Deep dive with math
 │   │   └── bias-variance.md              # Theory → Production
-│   ├── build-logs/
-│   │   ├── model-registry.md             # Systems lessons
-│   │   └── debugging.md                  # Real war story
+│   ├── math/
 │   └── creative/
 │       ├── symmetry.md                   # Poetry
 │       └── simple-solutions.md           # Essays
