@@ -33,7 +33,7 @@ resources:
   - title: "Ensemble Forecasting Implementation"
     url: "https://github.com/karim-sharkawy"
   - title: "Blog: Time Series Best Practices"
-    url: "{{ site.baseurl }}/blog/ml/time-series"
+    url: "blog/ml/time-series"
 
 lessons_text: |
   This project taught me critical lessons about time series forecasting:

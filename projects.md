@@ -11,7 +11,7 @@ Detailed case studies of ML systems I've built. Each project includes the proble
 
 ## Featured Projects
 
-### [Ensemble Time Series Climate Forecasting]({{ site.baseurl }}/projects/climate-forecasting)
+### [Ensemble Time Series Climate Forecasting](projects/climate-forecasting)
 
 **Problem**: Accurate hourly climate prediction combining multiple modeling approaches.
 
@@ -21,7 +21,7 @@ Detailed case studies of ML systems I've built. Each project includes the proble
 
 ---
 
-### [Customer Feedback Classification System]({{ site.baseurl }}/projects/customer-feedback)
+### [Customer Feedback Classification System](projects/customer-feedback)
 
 **Problem**: Scalable text classification for customer feedback analysis.
 
@@ -31,7 +31,7 @@ Detailed case studies of ML systems I've built. Each project includes the proble
 
 ---
 
-### [NLP Pipeline for Climate Anxiety Analysis]({{ site.baseurl }}/projects/climate-anxiety-nlp)
+### [NLP Pipeline for Climate Anxiety Analysis](projects/climate-anxiety-nlp)
 
 **Problem**: Analyze social media data to understand climate anxiety for mental health organizations.
 

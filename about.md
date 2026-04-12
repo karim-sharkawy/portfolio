@@ -10,7 +10,7 @@ title: About
 
 # About Me
 
-![Karim El-Sharkawy]({{ site.baseurl }}/assets/images/headshot.jpg)
+![Karim El-Sharkawy](assets/images/headshot.jpg)
 
 I'm a Machine Learning Engineer with a passion for building scalable systems that extract insights from data. My background in mathematics and atmospheric science, combined with hands-on experience in NLP and time series forecasting, drives me to create solutions that are both technically sound and practically impactful.
 
