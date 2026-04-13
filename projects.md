@@ -11,7 +11,7 @@ Detailed case studies of ML systems I've built. Each project includes the proble
 
 ## Featured Projects
 
-### [Ensemble Time Series Climate Forecasting](projects/climate-forecasting)
+### [Ensemble Time Series Climate Forecasting](_projects/climate-forecasting)
 
 **Problem**: Accurate hourly climate prediction combining multiple modeling approaches.
 
@@ -21,7 +21,7 @@ Detailed case studies of ML systems I've built. Each project includes the proble
 
 ---
 
-### [Customer Feedback Classification System](projects/customer-feedback)
+### [Customer Feedback Classification System](_projects/customer-feedback)
 
 **Problem**: Scalable text classification for customer feedback analysis.
 
@@ -31,7 +31,7 @@ Detailed case studies of ML systems I've built. Each project includes the proble
 
 ---
 
-### [NLP Pipeline for Climate Anxiety Analysis](projects/climate-anxiety-nlp)
+### [NLP Pipeline for Climate Anxiety Analysis](_projects/climate-anxiety-nlp)
 
 **Problem**: Analyze social media data to understand climate anxiety for mental health organizations.
 
@@ -40,6 +40,53 @@ Detailed case studies of ML systems I've built. Each project includes the proble
 **Impact**: Processed 270GB data in 15 hours, analyzed 21M posts.
 
 ---
+
+## Side Projects
+
+*Research and volunteer work that complement my main ML projects*
+
+- **[Linear Programming Research](experiences/linear-programming-research-assistant-purdue)** – Optimization-based classification using LP and SVMs
+- **[Planetary Climate Dynamics Research](experiences/planetary-climate-dynamics-research-assistant-purdue)** – Martian atmospheric analysis and visualization
+- **[Community Leadership](blog/creative/islamic-society-leadership)** – Leading inclusive community initiatives
+- **[Educational Outreach](blog/creative/earth-day-outreach)** – Science communication for elementary students
+
+---
+
+# What I'm Doing Now
+
+A real-time snapshot of what I'm learning, building, and exploring.
+
+## Currently Learning
+
+- **Model Compression & Quantization** – How to make models 10x faster without sacrificing too much accuracy
+- **Rust for Data Processing** – Why high-performance languages matter for ML infrastructure
+- **Causal Inference** – Moving beyond correlation to understand actual cause-and-effect in experiments
+- **LLM Fine-Tuning** – Practical approaches to adapting large language models for specific domains
+
+## Currently Building
+
+- **ML Patterns Library** – A curated collection of production-ready ML system patterns (data validation, feature stores, model serving)
+- **"Systems Thinking for ML" Blog Series** – Deep dives into production ML architecture decisions
+- **Recommender System Benchmark** – Open-source comparison of different recommendation algorithms on real data
+- **MLOps Template** – Starter kit for teams to quickly bootstrap ML projects with best practices baked in
+
+## Currently Exploring
+
+- Open-source contributions (especially in MLOps tooling)
+- Speaking opportunities about production ML
+- Potential consulting on ML systems design
+- Writing a longer guide on building scalable recommendation systems
+
+## Recently Completed
+
+- Built and deployed a real-time time series forecasting system (achieved 18% error reduction)
+- Published 5 blog posts on ML fundamentals
+- Mentored 3 junior ML engineers
+- Retrospective on lessons from building 8 production systems
+
+**Last updated**: April 2026
+
+*This page is inspired by [Derek Sivers' /now concept](https://nownownow.com/) – a simple way to share what you're currently focused on.*
 
 # What I'm Doing Now
 

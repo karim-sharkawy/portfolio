@@ -9,7 +9,7 @@ I believe ML projects succeed or fail based on problem clarity, data quality, sy
 
 ---
 
-## ML Engineer (Volunteer) | Sprout Remote (04/2025-Present)
+## [ML Engineer (Volunteer) | Sprout](_experiences/ml-engineer-volunteer-sprout) (04/2025–Present)
 
 ### What I Built
 
@@ -21,13 +21,11 @@ Python, Transformers (HuggingFace), Azure ML, PySpark
 
 ### Impact
 
-- **90% reduction** in processing time (2 weeks to 15 hours)
-- **21M posts** analyzed for mental health insights
+- 90% reduction in processing time (2 weeks to 15 hours)
+- 21M posts analyzed for mental health insights
 - Led cross-functional team delivering stakeholder-aligned solutions
 
----
-
-## Data Scientist (Volunteer) | Sprout Remote (01/2025-04/2025)
+## [Data Scientist (Volunteer) | Sprout](experiences/data-scientist-volunteer-sprout) (01/2025-04/2025)
 
 ### What I Built
 
@@ -39,13 +37,11 @@ Python, LDA (Topic Modeling), Grid Search
 
 ### Impact
 
-- **25% improvement** in model coherence
-- **75+ themes** identified for intervention planning
+- 25% improvement in model coherence
+- 75+ themes identified for intervention planning
 - Connected technical methods with community needs
 
----
-
-## Linear Programming Research Assistant | Purdue University (06/2023-12/2024)
+## [Linear Programming Research Assistant | Purdue University](experiences/linear-programming-research-assistant-purdue) (06/2023–12/2024)
 
 ### What I Built
 
@@ -57,13 +53,11 @@ Python, Scikit-learn, Linear Programming, SVMs
 
 ### Impact
 
-- **100K data points** tested for classification
-- **2 forthcoming papers** co-authored
+- 100K data points tested for classification
+- 2 forthcoming papers co-authored
 - Presented to faculty and students at mathematics seminar
 
----
-
-## Planetary Climate Dynamics Research Assistant | Purdue University (05/2022-12/2022)
+## [Planetary Climate Dynamics Research Assistant | Purdue University](experiences/planetary-climate-dynamics-research-assistant-purdue) (05/2022–12/2022)
 
 ### What I Built
 
@@ -75,10 +69,10 @@ Python, Data Analysis, Visualization
 
 ### Impact
 
-- **90GB datasets** processed and analyzed
+- 90GB datasets processed and analyzed
 - Contributed abstract to AGU conference
 - Supported atmospheric dynamics research
 
 ---
 
-Looking for someone with ML systems experience? [Let's talk!](https://linkedin.com/in/karim-me)
+Looking for someone with ML systems experience? [Let's talk!](https://www.linkedin.com/in/karimme/)

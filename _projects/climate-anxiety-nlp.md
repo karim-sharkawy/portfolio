@@ -16,7 +16,7 @@ results_metrics:
   - "**Interpretable outputs**: Emotion and theme extraction"
   - "**Stakeholder impact**: Informed educators and counselors"
 
-demo_url: ""
+demo_url: "https://www.linkedin.com/in/karimme/"
 code_repo: "https://github.com/karim-sharkawy"
 
 lessons_list:
