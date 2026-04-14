@@ -26,7 +26,6 @@ lessons_list:
   - "Cross-functional teams: Agile collaboration between technical and domain experts"
   - "Mental health applications: Connecting AI insights with community needs"
 
----
 
 # ML Engineer (Volunteer) | Sprout Remote (04/2025–Present)
 

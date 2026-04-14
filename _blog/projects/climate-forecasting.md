@@ -45,7 +45,6 @@ lessons_list:
   - "**Keep it simple first**: Initially tried attention mechanisms. Standard LSTM + XGBoost won. Simpler is better if accuracy is equal."
   - "**Retraining strategy matters**: Retrained daily initially. Found weekly retraining with drift detection was more stable and cheaper."
   - "**Offline validation isn't enough**: Built A/B testing framework. Real-world data had surprises our validation set missed."
----
 
 ## Approach
 
@@ -138,7 +137,5 @@ Significantly outperformed baseline (traditional statistical model):
 5. **Simpler first**: Attention mechanisms were my first instinct. But LSTM+XGBoost was easier, faster, and more interpretable. If accuracy is equal, choose simpler.
 
 6. **Retraining strategy matters**: Daily retraining was expensive and unstable. Weekly + drift detection gave us stability at 1/7 the cost.
-
----
 
 **Next steps**: Exploring online learning and handling cold-start for new regions. Also investigating causal models to understand weather sensitivity better.
