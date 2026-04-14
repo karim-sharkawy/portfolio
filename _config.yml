@@ -30,6 +30,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  experiences:
+    output: true
+    permalink: /experiences/:path/
   ml:
     output: true
     permalink: /blog/ml/:path/
@@ -49,19 +52,24 @@ defaults:
       layout: "project"
   - scope:
       path: ""
+      type: "experiences"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
       type: "ml"
     values:
       layout: "post"
-      category: "ml"
+      category: "ML"
   - scope:
       path: ""
       type: "math"
     values:
       layout: "post"
-      category: "math"
+      category: "Math"
   - scope:
       path: ""
       type: "creative"
     values:
       layout: "post"
-      category: "creative"
+      category: "Creative"

@@ -7,7 +7,7 @@ title: Experience
 
 ML projects succeed or fail based on problem clarity, data quality, systems design, iteration speed, and team collaboration. Below are the systems I’ve built and the lessons behind them.
 
-## [Machine Learning Engineer (Volunteer) | Sprout]({{ '/experiences/ml-engineer-volunteer-sprout' | relative_url }}) (04/2025–Present)
+## [Machine Learning Engineer (Volunteer) | Sprout]({{ '/experiences/ml-engineer-volunteer-sprout/' | relative_url }}) (04/2025–Present)
 *Technologies: Python, HuggingFace Transformers, BERTopic, Azure ML*
 
 ### What I Built
@@ -28,7 +28,7 @@ ML projects succeed or fail based on problem clarity, data quality, systems desi
 
 **Key Takeaway:** Scaling ML systems requires as much focus on data pipelines and infrastructure as on model performance.
 
-## [Data Scientist (Volunteer) | Sprout]({{ '/experiences/data-scientist-volunteer-sprout' | relative_url }}) (01/2025–04/2025)
+## [Data Scientist (Volunteer) | Sprout]({{ '/experiences/data-scientist-volunteer-sprout/' | relative_url }}) (01/2025–04/2025)
 *Technologies: Python, LDA (Topic Modeling), Scikit-learn, Grid Search*
 
 ### What I Built
@@ -48,7 +48,7 @@ ML projects succeed or fail based on problem clarity, data quality, systems desi
 
 **Key Takeaway:** Simple, well-evaluated baseline models are critical for guiding more complex system development.
 
-## [Linear Programming Research Assistant | Purdue University]({{ '/experiences/linear-programming-research-assistant-purdue' | relative_url }}) (06/2023–12/2024)
+## [Linear Programming Research Assistant | Purdue University]({{ '/experiences/linear-programming-research-assistant-purdue/' | relative_url }}) (06/2023–12/2024)
 *Technologies: Python, Scikit-learn, Linear Programming, SVMs, Convex Optimization*
 
 ### What I Built
@@ -68,7 +68,7 @@ ML projects succeed or fail based on problem clarity, data quality, systems desi
 
 **Key Takeaway:** Understanding the mathematical structure of models leads to better interpretability and more reliable systems.
 
-## [Planetary Climate Dynamics Research Assistant | Purdue University]({{ '/experiences/planetary-climate-dynamics-research-assistant-purdue' | relative_url }}) (05/2022–12/2022)
+## [Planetary Climate Dynamics Research Assistant | Purdue University]({{ '/experiences/planetary-climate-dynamics-research-assistant-purdue/' | relative_url }}) (05/2022–12/2022)
 *Technologies: Python, NumPy, Pandas, Data Visualization, Atmospheric Data Analysis*
 
 ### What I Built

@@ -10,7 +10,7 @@ Detailed case studies of ML systems I've built. Each project includes the proble
 
 ## Featured Projects
 
-### [Customer Feedback Classification System]({{ '/projects/customer-feedback' | relative_url }})
+### [Customer Feedback Classification System]({{ '/projects/customer-feedback/' | relative_url }})
 
 Built a scalable NLP system for classifying customer feedback across batch and real-time pipelines.
 
@@ -22,7 +22,7 @@ Built a scalable NLP system for classifying customer feedback across batch and r
 
 [View full case study →]({{ '/projects/customer-feedback' | relative_url }})
 
-### [Ensemble Time Series Climate Forecasting (LSTM + Random Forest)]({{ '/projects/climate-forecasting' | relative_url }})
+### [Ensemble Time Series Climate Forecasting (LSTM + Random Forest)]({{ '/projects/climate-forecasting/' | relative_url }})
 
 Built an ensemble forecasting system combining LSTM and tree-based models for accurate hourly climate prediction.
 

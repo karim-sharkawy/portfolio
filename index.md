@@ -23,13 +23,13 @@ title: Home
 
 *Featured work with live demos and technical breakdowns*
 
-### [NLP Pipeline for Climate Anxiety Analysis](projects/climate-anxiety-nlp)
+### [NLP Pipeline for Climate Anxiety Analysis]({{ '/projects/climate-anxiety-nlp/' | relative_url }})
 Analyzed 270GB text data from 21M social media posts using transformers. Cut processing time from 2 weeks to 15 hours.
 
-### [Customer Feedback Classification System](projects/customer-feedback)
+### [Customer Feedback Classification System]({{ '/projects/customer-feedback/' | relative_url }})
 Scalable NLP pipeline using PySpark and HuggingFace transformers for text classification. Deployed on Databricks with MLflow tracking.
 
-See [all projects](./projects) →
+See [all projects]({{ '/projects/' | relative_url }}) →
 
 ## Background
 
