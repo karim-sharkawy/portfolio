@@ -183,7 +183,7 @@ track_accuracy(predictions, actual)
 
 Production data distribution often differs from training. Temporal validation catches this.
 
----
+***
 
 ## Practical Decision Tree
 
@@ -208,7 +208,7 @@ to predict in real-time?
      └─ NO: Gradient boosting usually wins
 ```
 
----
+***
 
 ## The Real Lesson
 
