@@ -25,17 +25,18 @@ exclude:
   - README.md
 
 # Collections for organized content
+collections_dir: _blog
 collections:
   projects:
     output: true
     permalink: /projects/:path/
-  blog_ml:
+  ml:
     output: true
     permalink: /blog/ml/:path/
-  blog_logs:
+  math:
     output: true
-    permalink: /blog/build-logs/:path/
-  blog_creative:
+    permalink: /blog/math/:path/
+  creative:
     output: true
     permalink: /blog/creative/:path/
 
@@ -48,19 +49,19 @@ defaults:
       layout: "project"
   - scope:
       path: ""
-      type: "blog_ml"
+      type: "ml"
     values:
       layout: "post"
-      category: "ML & Math"
+      category: "ml"
   - scope:
       path: ""
-      type: "blog_logs"
+      type: "math"
     values:
       layout: "post"
-      category: "Build Logs"
+      category: "math"
   - scope:
       path: ""
-      type: "blog_creative"
+      type: "creative"
     values:
       layout: "post"
-      category: "Creative"
+      category: "creative"
